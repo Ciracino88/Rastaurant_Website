@@ -1,0 +1,234 @@
+a {
+    text-decoration: none;
+    color: var(--text-color);
+  }
+  
+  
+  .txt {
+      
+  }
+  
+  .wrap {
+      position: relative;
+      min-width: 1280px;
+      height: 100%;
+  }
+  
+  .header {
+      position: fixed;
+      right: 0;
+      left: 0;
+      top: 0;
+      border-bottom: 0;
+      background-color: transparent;
+      z-index: 9999;
+  }
+  
+  .section_header_wrap {
+      background-color: transparent;
+  }
+  
+  .section_header {
+      border-bottom: 1px solid rgba(255,255,255,.2);
+      position: relative;
+      width: 1100px;
+      margin: 0 auto;
+  }
+  
+  .area_inner {
+      overflow: hidden;
+      padding: 5px 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+  }
+  
+  .area_navbar {
+      overflow: hidden;
+      justify-content: space-between;
+      background-color: var(--background-color);
+      padding: 8px 12px;
+      margin-left: 100px;
+  }
+  
+  .list_siteMenu_wrap {
+      overflow: hidden;
+      position: relative;
+  }
+  
+  .list_siteMenu_MenuList {
+      list-style: none;
+      display: flex;
+      justify-content: flex-start;
+      margin: 0;
+      padding-left: 0;
+  }
+  
+  .navbar_color {
+      padding: 10px;
+      color: #fff;
+  }
+  
+  .theme_color {
+      padding: 10px;
+      color: #ffd400;
+  }
+  
+  .area_show_sidebar_btn {
+      all: unset;
+      cursor: pointer;
+      color: #fff;
+      margin-right: 40px;
+      justify-content: flex-end;
+  }
+  
+  .test {
+      vertical-align: -7px;
+  }
+  
+  /* side_menu_bar */
+  
+  .theme_background {
+      background-color: #c52c36 !important;
+  }
+  .side_menu_bar {
+      /* 버튼을 누르면 디스플레이를 block으로 바꿈 */
+      display: none;
+      overflow-y: auto;
+      position: fixed;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      width: 320px;
+  }
+  
+  .close_btn_sidemenu {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      width: 40px;
+      height: 40px;
+      border: 0;
+      background-color: rgba(0,0,0,.08);
+      font-size: 20px;
+      font-weight: 700;
+      color: #fff;
+      line-height: 48px;
+      text-align: center;
+      cursor: pointer;
+  }
+  
+  .area_logo {
+      padding: 30px 75px 64px 40px;
+  }
+  
+  .site_name {
+      display: inline;
+      font-size: 25px;
+      font-weight: 400;
+      line-height: 1.5;
+      color: #fff;
+      word-wrap: break-word;
+      word-break: break-all;
+  }
+  
+  .menuList {
+      list-style: none;
+  }
+  
+  .menuList li {
+      overflow: hidden;
+      padding: 15px 30px;
+      font-size: 14px;
+      line-height: 1.6;
+  }
+  
+  /* main */
+  
+  .main {
+      padding-top: 0;
+  }
+  
+  .spot_main_banner {
+      position: relative;
+  }
+  
+  .main_banner {
+      position: relative;
+  }
+  
+  .main_banner_img {
+      width: 100%;
+      height: 400px;
+      position: relative;
+      background-size: cover;
+      background-position: 50% 50%;
+      background-repeat: no-repeat;
+      background-image: url(https://img.lovepik.com/photo/40099/5885.jpg_wh860.jpg);
+  }
+  
+  .main_banner_opacity {
+      opacity: 0.21;
+  }
+  
+  .main_center_info {
+      width: 900px;
+      height: 400px;
+      margin-left: -450px;
+      text-align: center;
+      display: table;
+      position: absolute;
+      left: 50%;
+      top: 0;
+  }
+  
+  .site_info {
+      display: table-cell;
+      position: relative;
+      z-index: 10;
+      padding-top: 39px;
+      vertical-align: middle;
+      letter-spacing: -.8px;
+  }
+  
+  .site_profile {
+      float: none;
+  }
+  
+  .site_profile_img {
+      width: 80px;
+      height: 80px;
+  }
+  
+  .site_description {
+      margin-top: 2px;
+      font-size: 15px;
+      color: rgba(255,255,255,.8);
+      line-height: 25px;
+      letter-spacing: -.6px;
+      word-wrap: break-word;
+      word-break: break-all;
+  }
+  
+  /* 가게 소개 */
+  
+  .intro_box {
+      position: relative;
+      margin-top: 80px;
+      width: 1280px;
+      margin: 0 auto;
+  }
+  
+  .intro_section {
+      position: relative;
+      text-align: center;
+  }
+  
+  .point_text {
+      display: inline-block;
+      position: relative;
+      margin-bottom: 8px;
+      font-size: 15px;
+      font-weight: 400;
+      letter-spacing: -.8px;
+  }
