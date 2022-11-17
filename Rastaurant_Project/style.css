@@ -81,7 +81,7 @@ a {
   
   .theme_color {
       padding: 10px;
-      color: #ffd400;
+      color: #c52c36;
   }
   
   .area_show_sidebar_btn {
@@ -279,7 +279,6 @@ a {
     letter-spacing: -.6px;
     text-align: left;
     color: #666;
-    vertical-align: middle;
   }
 
   .uio_title {
@@ -299,3 +298,87 @@ a {
     height: 1px;
     z-index: 1;
   }
+
+.uio_title:after {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -10px;
+    content: '';
+    width: 1100px;
+    height: 1px;
+    background-color: #ebebeb;
+}
+
+/* 메뉴 소개 부분 */
+
+.gallery_area {
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+}
+
+.gallery_area ul {
+    margin-left: -20px;
+    font-size: 0;
+}
+
+.gallery_area li {
+    display: inline-block;
+    width: 33.333%;
+    padding-left: 20px;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+.gallery_area li:nth-child(n+4) {
+    margin-top: 20px;
+}
+
+.gallery_img {
+    position: relative;
+    overflow: hidden;
+}
+
+.gallery_img a {
+    display: block;
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+}
+
+.gallery_img img {
+    display: block;
+    width: 100%;
+    vertical-align: top;
+}
+
+.more_items {
+    height: 351px;
+    border: solid 1px #ebebeb;
+    background-color: #fff;
+    box-shadow: 2px 2px 4px 0 rgb(0 0 0 / 8%);
+    font-family: Roboto,Sans-serif;
+    text-align: center;
+}
+
+.link_more {
+    display: block;
+}
+
+.text2 {
+    display: block;
+    font-size: 15px;
+    letter-spacing: -.5px;
+    line-height: 22px;
+    color: #333;
+}
+
+.text2>i {
+    display: block;
+    font-size: 12px;
+    color: #bbb;
+    letter-spacing: -.3px;
+    font-style: italic;
+}
