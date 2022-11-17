@@ -1,13 +1,22 @@
 a {
     text-decoration: none;
-    color: var(--text-color);
+    color: inherit;
   }
   
   
-  .txt {
-      
+  .text {
+    vertical-align: middle;
   }
   
+  .icon {
+    color: #999;
+    vertical-align: middle;
+    font-size: 16px;
+    margin-left: 2px;
+    margin-bottom: -1px;
+    font-weight: 700;
+  }
+
   .wrap {
       position: relative;
       min-width: 1280px;
@@ -62,6 +71,7 @@ a {
       justify-content: flex-start;
       margin: 0;
       padding-left: 0;
+      color: #fff;
   }
   
   .navbar_color {
@@ -228,7 +238,64 @@ a {
       display: inline-block;
       position: relative;
       margin-bottom: 8px;
-      font-size: 15px;
+      font-size: 25px;
       font-weight: 400;
       letter-spacing: -.8px;
+  }
+
+  .text_intro {
+    position: relative;
+    overflow: hidden;
+    height: auto;
+    margin: 0 217px;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.89;
+    letter-spacing: -.6px;
+    color: #333;
+    word-wrap: break-word;
+    word-break: break-all;
+  }
+
+  /* 본문 구현 */
+  .content {
+    width: 1280px;
+    min-height: 650px;
+    padding: 0 90px 100px;
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+
+  .uio_box {
+    position: relative;
+    margin-top: 80px;
+  }
+
+  .summary_btn_more {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 15px;
+    letter-spacing: -.6px;
+    text-align: left;
+    color: #666;
+    vertical-align: middle;
+  }
+
+  .uio_title {
+    display: inline-block;
+    position: relative;
+    font-size: 20px;
+    margin-bottom: 40px;
+    font-weight: 400;
+    letter-spacing: -.8px;
+  }
+
+  .uio_title_bullet {
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    width: 100%;
+    height: 1px;
+    z-index: 1;
   }
