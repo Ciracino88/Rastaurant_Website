@@ -80,7 +80,6 @@ a {
   }
   
   .theme_color {
-      padding: 10px;
       color: #c52c36;
   }
   
@@ -224,7 +223,8 @@ a {
   
   .intro_box {
       position: relative;
-      margin-top: 80px;
+      padding-top: 80px;
+      padding-bottom: 50px;
       width: 1280px;
       margin: 0 auto;
   }
@@ -273,7 +273,7 @@ a {
 
   .summary_btn_more {
     position: absolute;
-    top: 0;
+    top: 30px;
     right: 0;
     font-size: 15px;
     letter-spacing: -.6px;
@@ -381,4 +381,49 @@ a {
     color: #bbb;
     letter-spacing: -.3px;
     font-style: italic;
+}
+
+/* 지도 부분 */
+
+.map_area {
+    border: 0;
+    box-shadow: none;
+}
+
+.map_area:before {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 100;
+    background: #717480;
+    opacity: .9;
+    content: '';
+}
+
+.map_adr {
+    padding: 0 265px 0 20px;
+    margin: 40px 0;
+    height: auto;
+    max-height: 140px;
+    position: relative;
+    background: #fff;
+    box-sizing: border-box;
+}
+
+.map_adr>h3 {
+    font-size: 15px;
+    overflow: hidden;
+    font-weight: 400;
+    color: #666;
+    line-height: 24px;
+    letter-spacing: -.6px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.map_adr>p {
+    font-size: 26px;
+    line-height: 38px;
+    overflow: hidden;
+    letter-spacing: -1px;
 }
