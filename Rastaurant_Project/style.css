@@ -419,6 +419,7 @@ a {
     letter-spacing: -.6px;
     text-overflow: ellipsis;
     white-space: nowrap;
+    margin: 0;
 }
 
 .map_adr>p {
@@ -426,4 +427,107 @@ a {
     line-height: 38px;
     overflow: hidden;
     letter-spacing: -1px;
+    overflow: hidden;
+    margin-top: 3px;
+    letter-spacing: -1px;
+}
+
+.map_ico_btn_wrap {
+    position: absolute;
+    right: 20px;
+    top: 40px;
+    z-index: 250;
+    height: 61px;
+    margin-top: -30px;
+}
+
+.btn_roadmap {
+    display: inline-block;
+    width: auto;
+    height: 40px;
+    padding: 0 20px;
+    border-radius: 2px;
+    border: 0;
+    font-size: 15px;
+    font-weight: 100;
+    letter-spacing: -1px;
+    line-height: 40px;
+    color: #fff;
+}
+
+.btn_view_map {
+    display: inline-block;
+    width: auto;
+    height: 40px;
+    padding: 0 20px;
+    margin-left: 4px;
+    border-radius: 2px;
+    border: 0;
+    font-size: 15px;
+    font-weight: 100;
+    letter-spacing: -1px;
+    line-height: 40px;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    box-sizing: border-box;
+}
+
+/* 전화번호, 이용시간, 이용안내 설명 부분 */
+
+.list_info {
+    border-top: 1px solid #ebebeb;
+    padding: 30px 0;
+    letter-spacing: -1px;
+    font-size: 15px;
+    line-height: 22px;
+}
+
+.item_title {
+    float: left;
+    width: 168px;
+    padding-left: 10px;
+    font-size: 15px;
+    color: #111;
+}
+
+.item_description {
+    margin-left: 60px;
+    color: #666;
+    overflow: hidden;
+    padding-right: 10px;
+}
+
+.sub_title1 {
+    display: inline-block;
+    min-width: 40px;
+    margin-right: 58px;
+    color: #999;
+}
+
+.sub_title2 {
+    display: inline-block;
+    min-width: 40px;
+    margin-right: 20px;
+    color: #999;
+}
+
+.sub_text {
+    display: block;
+    margin-top: 10px;
+    font-size: 13px;
+}
+
+.list_guide {
+    margin-bottom: -23px;
+}
+
+.item_guide {
+    display: inline-block;
+    min-width: 80px;
+    margin-bottom: 23px;
+    text-align: center;
+    letter-spacing: -.6px;
+    color: #666;
+    vertical-align: top;
 }
